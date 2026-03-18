@@ -1,151 +1,64 @@
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5LN9SD01Q7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5LN9SD01Q7');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>About Developer - Invisible Text Generator</title>
+</head>
+<body class="bg-gray-100 p-5 md:p-10 flex flex-col items-center font-sans">
 
-<style>
-    :root {
-        --site-blue: #007bff; /* Primary brand color from your tool */
-        --site-dark: #343a40;
-        --site-gray: #6c757d;
-        --site-bg: #ffffff;
-        --border: #dee2e6;
-    }
+    <header class="w-full max-w-2xl mb-6">
+        <a href="https://mytexttools.github.io/invisible-text-generator/" 
+           class="inline-flex items-center text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors duration-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Back to Generator
+        </a>
+    </header>
 
-    .guide-container {
-        font-family: 'Inter', -apple-system, sans-serif;
-        color: var(--site-dark);
-        max-width: 800px;
-        margin: 30px auto;
-        padding: 20px;
-        line-height: 1.7;
-    }
+    <div class="vault-card bg-white border border-blue-100 p-8 rounded-[2rem] shadow-sm max-w-2xl w-full">
+        <div class="flex flex-col items-center text-center gap-6">
 
-    /* Professional Back Button matching your site's buttons */
-    .back-btn {
-        display: inline-flex;
-        align-items: center;
-        background-color: var(--site-blue);
-        color: white;
-        padding: 10px 20px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 14px;
-        margin-bottom: 30px;
-        transition: opacity 0.2s ease;
-        box-shadow: 0 2px 4px rgba(0,123,255,0.2);
-    }
-
-    .back-btn:hover {
-        opacity: 0.9;
-        color: white;
-    }
-
-    .main-heading {
-        font-size: 26px;
-        font-weight: 700;
-        color: var(--site-dark);
-        margin-bottom: 15px;
-        border-left: 5px solid var(--site-blue);
-        padding-left: 15px;
-    }
-
-    .intro-p {
-        color: var(--site-gray);
-        font-size: 16px;
-        margin-bottom: 35px;
-    }
-
-    .step-item {
-        border: 1px solid var(--border);
-        border-radius: 8px;
-        padding: 20px;
-        margin-bottom: 20px;
-        background: var(--site-bg);
-    }
-
-    .step-item h3 {
-        color: var(--site-blue);
-        font-size: 18px;
-        margin-top: 0;
-        margin-bottom: 12px;
-        font-weight: 600;
-    }
-
-    .step-item ul {
-        margin: 0;
-        padding-left: 20px;
-    }
-
-    .step-item li {
-        margin-bottom: 8px;
-        color: #495057;
-    }
-
-    .tips-section {
-        background-color: #f8f9fa; /* Light gray from Bootstrap/your site */
-        border: 1px dashed var(--site-blue);
-        border-radius: 8px;
-        padding: 20px;
-        margin-top: 40px;
-    }
-
-    .tips-section h3 {
-        margin-top: 0;
-        font-size: 18px;
-        color: var(--site-dark);
-    }
-
-    strong {
-        color: var(--site-blue);
-    }
-</style>
-
-<div class="guide-container">
-    <a href="https://mytexttools.github.io/text-to-handwritting-pro/" class="back-btn">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-        Back to Handwriting Tool
-    </a>
-
-    <h2 class="main-heading">How to Use the Text to Handwriting Tool - A Simple Guide</h2>
-    <p class="intro-p">Convert your digital notes into authentic handwritten pages instantly using our specialized tool.</p>
-
-    <div class="step-item">
-        <h3>1. Enter Your Text</h3>
-        <ul>
-            <li>Paste your content or type directly into the input editor.</li>
-            <li>The tool will automatically render the text in the preview window.</li>
-        </ul>
-    </div>
-
-    <div class="step-item">
-        <h3>2. Choose a Handwriting Style</h3>
-        <ul>
-            <li>Select from various <strong>Handwriting Fonts</strong> like cursive or simple print.</li>
-            <li>Each style is crafted to look like real human writing.</li>
-        </ul>
-    </div>
-
-    <div class="step-item">
-        <h3>3. Adjust the Settings</h3>
-        <ul>
-            <li><strong>Ink & Paper:</strong> Choose between Blue, Black, or Red ink and select Ruled or Plain paper.</li>
-            <li><strong>Layout:</strong> Modify font size and line spacing to align with the page lines.</li>
-        </ul>
-    </div>
-
-    <div class="step-item">
-        <h3>4. Export Your Work</h3>
-        <ul>
-            <li>Review the final layout in the preview area.</li>
-            <li>Download your notes as a high-quality <strong>PNG Image</strong> or <strong>PDF</strong> file.</li>
-        </ul>
-    </div>
-
-    <div class="tips-section">
-        <h3>💡 Pro Tips for Realism</h3>
-        <ul>
-            <li>Slightly increase <strong>Letter Spacing</strong> for a more natural feel.</li>
-            <li>Use the <strong>Ruled Paper</strong> option for academic assignments.</li>
-            <li>Review the preview at 100% zoom before downloading.</li>
-        </ul>
-    </div>
+          <div style="width: 150px; height: 150px; position: relative;">
+<img src="ha.jpg" alt="Invisible Text Generator"
+style="width: 100%; height: 100%; border-radius: 50%; object-fit: contain; border: 4px solid #f0f7ff; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
 </div>
+
+            <div class="w-full">
+                <h2 class="text-3xl font-bold text-slate-800 mb-3" style="font-family: 'Playfair Display', serif;">About the Developer</h2>
+                
+                <p class="text-lg text-blue-900 font-semibold mb-3">
+                    Hello, I am Happy Sagar.
+                </p>
+                
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    I work on digital tools and online content. My aim is simple: to create useful information and tools that help people navigate their digital lives more effectively.
+                </p>
+                
+                <p class="text-gray-600 leading-relaxed mt-3">
+I developed this **Text to Handwriting Pro** tool to help students and professionals convert digital text into realistic, human-like handwriting. Whether it's for school assignments, creative projects, or personal notes, this tool provides an authentic look with customizable styles and layouts.
+
+                </p>
+
+                <div class="mt-8 inline-flex items-center gap-3 px-6 py-3 bg-blue-50 rounded-full border border-blue-100">
+                    <i class="fas fa-envelope text-blue-600"></i>
+                    <a href="mailto:mytexttools1@gmail.com" class="no-underline text-slate-900 font-bold text-sm hover:text-blue-600 transition-colors">
+                        mytexttools1@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
