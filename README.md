@@ -1360,7 +1360,7 @@
             </div>
             <div class="nav-links">
                 <div class="nav-link active" onclick="showPage('home')">Home</div>
-                <div class="nav-link" onclick="showPage('converter')">Converter</div>
+                <div class="aboutus3.html" onclick="showPage('converter')">how to use</div>
                 <div class="nav-link" onclick="showPage('home'); scrollToSection('features')">Features</div>
                 <div class="cta-button" onclick="showPage('converter')">
                     <i>🚀</i>
